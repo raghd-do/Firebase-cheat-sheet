@@ -10,11 +10,9 @@ npm i firebase
 import { initializeApp } from 'firebase/app';
 
 // TODO: Replace the following with your app's Firebase project configuration
-const firebaseConfig = {
+const app = initializeApp({
   //...
-};
-
-const app = initializeApp(firebaseConfig);
+});
 ```
 > **NOTE:** the firebase configuration object is berfectly safe to inclode in the *client side*
 >
