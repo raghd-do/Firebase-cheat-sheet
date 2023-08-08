@@ -5,7 +5,7 @@
 npm i firebase
 ```
 
-### Fnshialize firebase app
+### Inishialize firebase app
 ```js
 import { initializeApp } from 'firebase/app';
 
